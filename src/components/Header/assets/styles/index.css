@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+ body{
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.1rem;
+    cursor:default;
+
+ }
+
+.header{
+    background: url(./images1.jpg);
+    background-size: 100%;
+    height:670px;
+    background: url(../styles/images1.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 20000px rgba(99, 92, 219, 0.7);
+}
+
+.headtext{
+    position: absolute;
+    top:200px;
+}
+
+.header span{
+    color: #332adf;
+}
+
+.headtext p{
+    padding-top:20px;
+}
+
+.header .headtext p:before {
+    content: "";
+    position: absolute;
+    bottom: 25px;
+    left: 13px;
+    width: 25px;
+    height: 2px;
+    background: #2f25e0;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.header .headtext p:after {
+    content: "";
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    width: 15px;
+    height: 2px;
+    background: #2c22e4;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+.header .headbtn{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 100px 0px 100px 100px;
+    display: inline-block;
+    height: 40px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    background: linear-gradient(135deg, #6A30D1 0%, #5C83E3 100%);
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+    top:50px;
+    text-transform: uppercase;
+
+}
+
+
+.header .headbtn:hover {
+    background-image: linear-gradient(-135deg, #5209d1 0%, #2f63e6 100%);
+    color: #fff;
+}
+
+@media screen and (max-width: 992px){
+    .header {
+        margin-top: 10px;
+        background: #fff;
+        box-shadow: inset 0 0 0 20000px rgba(255, 255, 255, 0.7);
+        max-height: 300px;
+    }
+    .header h3{
+        
+        font-size: 20px;
+    }
+    .headtext{
+        position: absolute;
+        top:180px;
+    }
+    
+}

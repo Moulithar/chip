@@ -1,0 +1,105 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: 40px 0 40px 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+/* .card :before{
+    content: "";
+    top: 0px;
+    left: 0px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+} */
+
+.thirdbutton{
+    
+        border: 1px solid #ffffff;
+        border-radius: 20px 0px 20px 20px;
+        display: inline-block;
+        height: 70px;
+        line-height: 29px;
+        letter-spacing: 0.5px;
+        background: #F6F4FD;
+        color:#635CDB;
+        position: relative;
+        overflow: hidden;
+        margin-top: 30px;
+        align-items: center;
+        text-align: center;
+    
+    }
+    .welcome .btn:hover {
+        color: var(--bs-btn-hover-color);
+    background-color: none;
+        border-color: var(--bs-btn-hover-border-color);
+    }
+    .welcome .btn-primary{
+        width:70px;
+    }
+
+.welcome h5{
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    font-weight: 400;
+}
+.welcome p{
+    font-size: 14px;
+    padding: 10px 5px 25px 5px;
+    letter-spacing: 0.88px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.welcome  {
+    margin-top: -88px;
+    padding-bottom: 20px;
+    }
+@media screen and (max-width:992px){
+   .welcome  {
+   margin-top: 20px;
+    }
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: rgb(255, 255, 255);
+        background-clip: border-box;
+        border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+        border-radius: 40px 0 40px 40px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding:20px;
+        margin-top:20px;
+        margin-bottom:20px;
+    
+    }
+}
+@media (max-width: 768px)
+{
+   .card{
+    width: 100%;
+   }
+   .welcome  {
+    padding-top: 20px 0px ;
+position: relative;
+top: 30px
+}
+}
+   

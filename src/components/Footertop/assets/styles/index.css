@@ -1,0 +1,52 @@
+.footertop{
+    background-color: #F4F8FB;
+    color:#6F8BA4;
+    padding:50px 0px 10px 0px;
+}
+.footertop h5{
+    text-transform: capitalize;
+}
+.footertop p{
+    font-size: 14px;
+    padding-top:30px;
+}
+ul{
+    padding-top: 30px;
+   
+    text-align: start;
+   
+}
+.footertop li{
+    font-size: 14px;
+    text-transform: capitalize;  
+    text-align: start;
+}
+
+ol, ul {
+    padding-left: 0rem;
+}
+ul li {
+    position: relative;
+      padding-bottom: 10px;
+      padding-left: -10px;
+     
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li:before{
+     content: '';
+     position: absolute;
+     border-right:1px solid black;
+     border-bottom:1px solid black;
+     width:5px;
+     height:5px;
+     top: calc(50% - 4px);
+     left: -20px;
+     transform: translateY(-50%) rotate(-45deg);
+  }
+  .contact p{
+    padding-top: 0px;
+  }

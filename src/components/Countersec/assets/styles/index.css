@@ -1,0 +1,109 @@
+.countersec{
+    width:100%;
+    height:300px;
+    color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(../styles/images1.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 10000px rgba(99, 92, 219, 0.7);
+    background-attachment: fixed;
+}
+.countersec .secbtn{
+    border: 1px solid #ffffff;
+    border-radius: 100px 0px 100px 100px;
+    height: 40px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    background-color: #ffffff;
+    color: #635CDB;
+    font-weight: 700;
+    font-size: 13px;
+    max-width: 200px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:465px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:992px){
+    .countersec .secbtn{
+        border: 1px solid #ffffff;
+        border-radius: 100px 0px 100px 100px;
+        height: 40px;
+        line-height: 29px;
+        letter-spacing: 0.5px;
+        background-color: #ffffff;
+        color: #635CDB;
+        font-weight: 700;
+        font-size: 13px;
+        width:100%;
+        text-transform: uppercase;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left:265px;
+    }
+    .countersec{
+        width:100%;
+        height:300px;
+        color: #ffffff;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: url(../styles/images1.jpg);
+        background-size: cover;
+        box-shadow: inset 0 0 0 10000px rgba(99, 92, 219, 0.7);
+        background-attachment: fixed;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .countersec .secbtn{
+        border: 1px solid #ffffff;
+        border-radius: 100px 0px 100px 100px;
+        height: 40px;
+        line-height: 29px;
+        letter-spacing: 0.5px;
+        background-color: #ffffff;
+        color: #635CDB;
+        font-weight: 700;
+        font-size: 13px;
+        width:100%;
+        text-transform: uppercase;
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left:85px;
+    }
+    .countersec{
+        width:100%;
+        height:300px;
+        color: #ffffff;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: url(../styles/images1.jpg);
+        background-size: cover;
+        box-shadow: inset 0 0 0 10000px rgba(99, 92, 219, 0.7);
+        background-attachment: fixed;
+        
+    }
+    .countersec h4{
+        font-size: 14px;
+    }
+}
+
