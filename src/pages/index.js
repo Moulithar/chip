@@ -16,7 +16,7 @@ import image2 from "./assets/styles/image2.jpg";
 import image3 from "./assets/styles/image3.jpg";
 import img1 from "./assets/styles/1.jpg";
 import img2 from "./assets/styles/2.jpg";
-import img3 from "./assets/styles/3.jpg";
+import img3 from "./assets/styles/3.jpg"; 
 import img4 from "./assets/styles/4.jpg";
 
 const welcomeOptions = [
@@ -82,17 +82,17 @@ const teamOptions = [
 
 const blogOptions = [
   {
-    title: <h6>Turing Expands the Leadership Team with David Lin, Controlle</h6>,
+    title: <h6>Chip Expands the Leadership Team with David Lin, Controlle</h6>,
     desc: <p>Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. Sed eget sem vitae purus tempus dignissim.</p>,
     image: image1
   },
   {
-    title: <h6>Turing Expands the Leadership Team with David Lin, Controlle</h6>,
+    title: <h6>Chip Expands the Leadership Team with David Lin, Controlle</h6>,
     desc: <p>Cras imperdiet faucibus sem, a dignissim urna feugiat sed. Interdum et malesuada fames ac ante ipsum.</p>,
     image: image2  
   },
   {
-    title: <h6>Turing Expands the Leadership Team with David Lin, Controlle</h6>,
+    title: <h6>Chip Expands the Leadership Team with David Lin, Controlle</h6>,
     desc: <p>Quisque euismod nec lacus sit amet maximus. Ut convallis sagittis lorem auctor malesuada. Morbi auctor tortor eu</p>,
     image: image3 
   },

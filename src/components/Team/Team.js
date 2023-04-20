@@ -27,8 +27,11 @@ function Team(props) {
                     <img src={data.image} classname="teamimg"/>
                       <Card.Body>
                       <Card.Title className="cardtitle">{data.title}</Card.Title>
-                      <div classname="d-flex justify-content center">
-                        F  T  L  G
+                      <div classname="">
+                      <i className=" icon-team icon-fb"></i>
+                      <i className="icon-team icon-twit"></i>
+                      <i className="icon-team icon-ln"></i>
+                      <i className="icon-team icon-git"></i>
                       </div>
                       <Card.Text>
                         {data.desc}

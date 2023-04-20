@@ -7,7 +7,7 @@ const Footerbottom = () =>
     return(
         <div className="footerbottom text-centre">
             <Container>
-            © 2021 Turing. All Rights Reserved
+            © 2023 Chip. All Rights Reserved
             </Container>
         </div>
     );

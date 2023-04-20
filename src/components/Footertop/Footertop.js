@@ -10,7 +10,7 @@ const Footertop = ()=>{
             <Container>
                 <Row>
                     <Col lg={5} >
-                        <h5>turing</h5>
+                        <h5>chip</h5>
                         <p>Morbi convallis bibendum urna ut viverra. Maecenas quis 
                             consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi 
                             ultricies laoreet ullamcorper phasellus semper</p>

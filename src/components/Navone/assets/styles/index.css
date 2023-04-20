@@ -10,44 +10,34 @@
     margin-top:20px;
 }
 .button1{
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 20px;
     border: 1px solid #ffffff;
     border-radius: 100px 0px 100px 100px;
     display: inline-block;
-    height: 25px;
     letter-spacing: 0.5px;
     background: linear-gradient(135deg, #6A30D1 0%, #5C83E3 100%);
     color: #ffffff;
     position: relative;
     overflow: hidden;
-    margin-top: 0px;
+    margin-top: -10px;
     font-weight: 700;
     font-size: 12px;
-    align-items: center;
     min-width: 90px;
     text-align: center;
 
 }
 
 .button2{
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 20px;
     border: 1px solid #583fc7;
     border-radius: 100px 0px 100px 100px;
     display: inline-block;
-    height: 25px;
     letter-spacing: 0.5px;
     background: #ffffff;
     color: #635CDB;
     position: relative;
     overflow: hidden;
-    margin-top: 0px;
+    margin-top: -10px;
     font-weight: 700;
     font-size: 12px;
-    align-items: center;
     min-width: 90px;
     text-align: center;
 
@@ -68,3 +58,6 @@
     border-color: var(--bs-btn-hover-border-color);
 }
 
+#basic-nav-dropdown li{
+    padding: 0%;
+}
